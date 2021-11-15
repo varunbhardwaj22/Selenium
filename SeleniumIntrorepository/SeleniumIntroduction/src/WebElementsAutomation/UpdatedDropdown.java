@@ -12,6 +12,17 @@ public class UpdatedDropdown {
 		System.setProperty("webdriver.chrome.driver", "/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		//driver.get("http://spicejet.com"); //URL in the browser
+
+		Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+
+		//Assert.assertFalse(true);System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+
+		driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
+
+		System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+
+		Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 
 		driver.findElement(By.id("divpaxinfo")).click();
 
