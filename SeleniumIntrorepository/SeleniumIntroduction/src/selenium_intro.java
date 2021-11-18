@@ -23,12 +23,12 @@ public class selenium_intro {
 
 		// Firefox Launch
 		// System.setProperty("webdriver.gecko.driver",
-		// "/home/varun.bhardwaj@npci.org.in/Downloads/geckodriver_linux64/geckodriver");
+		// "/home/varun/Downloads/geckodriver_linux64/geckodriver");
 		// WebDriver driver = new FirefoxDriver();
 
 		// Chrome launch
 		System.setProperty("webdriver.chrome.driver",
-				"/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://rahulshettyacademy.com");

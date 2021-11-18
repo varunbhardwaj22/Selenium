@@ -9,7 +9,7 @@ public class ExplicitWait {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.itgeared.com/demo/1506-ajax-loading.html");

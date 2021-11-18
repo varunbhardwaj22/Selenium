@@ -8,7 +8,7 @@ public class Checkbox {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/varun/Downloads/chromedriver_linux64/chromedriver");
 
 		WebDriver driver =new ChromeDriver();
 

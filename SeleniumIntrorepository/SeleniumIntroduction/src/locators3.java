@@ -16,7 +16,7 @@ public static void main(String[] args) {
 
 
 
-System.setProperty("webdriver.chrome.driver", "/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+System.setProperty("webdriver.chrome.driver", "/home/varun/Downloads/chromedriver_linux64/chromedriver");
 WebDriver driver = new ChromeDriver();
 
 // Sibling - Child to parent traverse
