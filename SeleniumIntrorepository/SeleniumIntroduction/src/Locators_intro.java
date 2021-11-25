@@ -44,7 +44,7 @@ public class Locators_intro {
 		//	1.class name->tagname.classname  eg-> Button.signInBtn
 		//	2.id->tagname#id  eg->input#inputUsername
 		//	3.Tagname[attribute='value']  eg->Input[placeholder='Username'] 
-		//	4.Tagname[attribute='value']:nth-child(index)  identifying using index
+		//	4.Tagname[attribute='value']:nth-child(index) eg-"tbody td:nth-child(4)" identifying using index
 		//	5.Parenttagname childtagname   - parent to child traversal
 		//  6.input[type*='pass'] - regular expression
 		//  7.tagname
