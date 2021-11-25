@@ -10,7 +10,7 @@ public class ScrollingJavaScript {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();

@@ -14,7 +14,7 @@ public class Calendars {
 public static void main(String[] args) {
 // TODO Auto-generated method stub
 
-	System.setProperty("webdriver.chrome.driver", "/home/varun.bhardwaj@npci.org.in/Downloads/chromedriver_linux64/chromedriver");
+	System.setProperty("webdriver.chrome.driver", "/home/varun/Downloads/chromedriver_linux64/chromedriver");
 
 	WebDriver driver = new ChromeDriver();
 
