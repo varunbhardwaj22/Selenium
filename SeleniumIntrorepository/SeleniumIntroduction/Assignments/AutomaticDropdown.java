@@ -12,8 +12,6 @@ public class AutomaticDropdown {
 
 	public static void main(String[] args) throws InterruptedException {
 
-// TODO Auto-generated method stub
-
 		System.setProperty("webdriver.chrome.driver",
 				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
