@@ -18,14 +18,14 @@ public class CookiesAndScreenshot {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"/home/varun1/Downloads/chromedriver_linux64/chromedriver");
+				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().deleteCookieNamed("session");  //To delete a particular cookie
 		driver.get("https://www.google.co.in/");
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src,new File("/home/varun.bhardwaj@npci.org.in/Desktop/SeleniumScreenshot.png"));
+		FileUtils.copyFile(src,new File("/home/varun/Desktop/SeleniumScreenshot.png"));
 		
 	}
 
