@@ -18,7 +18,7 @@ public class CookiesAndScreenshot {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"/home/varun/Downloads/chromedriver_linux64/chromedriver");
+				"/home/varun1/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().deleteCookieNamed("session");  //To delete a particular cookie
